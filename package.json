@@ -1,0 +1,24 @@
+{
+  "name": "tiny_road_trip",
+  "version": "0.1.0",
+  "description": "twitter bot for tiny road trip",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d lib",
+    "start": "NODE_PATH=. node ./lib/index.js",
+    "dev": "yarn build && yarn start"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-emoji": "^1.5.1",
+    "random-int": "^1.0.0",
+    "random-item": "^1.0.0",
+    "twitter": "^1.7.1"
+  },
+  "author": "Nick Goris <nick@robarov.be>"
+}
