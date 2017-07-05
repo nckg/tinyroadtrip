@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src/ -d lib",
-    "start": "NODE_PATH=. node ./lib/index.js",
+    "start": "./index.js",
     "dev": "yarn build && yarn start"
   },
   "devDependencies": {
