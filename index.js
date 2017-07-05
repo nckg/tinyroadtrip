@@ -1,2 +1,7 @@
 #!/usr/bin/env node
-require('./lib/index');
+var run = require('./lib/index');
+var cron = require('node-cron');
+
+cron.schedule('0 0 */5 * *', function () {
+    run();
+});
