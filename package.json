@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src/ -d lib",
-    "start": "node ./index.js",
+    "start": "micro",
     "dev": "yarn build && yarn start"
   },
   "devDependencies": {
@@ -16,6 +16,7 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "friendly-cron": "^0.0.1",
+    "micro": "^7.3.3",
     "node-cron": "^1.2.0",
     "node-emoji": "^1.5.1",
     "random-int": "^1.0.0",
