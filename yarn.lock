@@ -738,6 +738,10 @@ form-data@~2.1.1:
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
 
+friendly-cron:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/friendly-cron/-/friendly-cron-0.0.1.tgz#fd8eb21cc17f983e7f218867fbf097be29ad3d76"
+
 fs-readdir-recursive@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-1.0.0.tgz#8cd1745c8b4f8a29c8caec392476921ba195f560"
@@ -1099,6 +1103,10 @@ ms@2.0.0:
 nan@^2.3.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
+
+node-cron:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/node-cron/-/node-cron-1.2.0.tgz#024987b1b492044aa00d75f5ca64aa7c94e0d256"
 
 node-emoji@^1.5.1:
   version "1.5.1"
