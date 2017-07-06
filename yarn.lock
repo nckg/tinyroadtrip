@@ -44,8 +44,8 @@ arr-diff@^2.0.0:
     arr-flatten "^1.0.1"
 
 arr-flatten@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.0.3.tgz#a274ed85ac08849b6bd7847c4580745dc51adfb1"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.1.0.tgz#36048bbff4e7b47e136644316c99669ea5ae91f1"
 
 array-unique@^0.2.1:
   version "0.2.1"
@@ -658,7 +658,7 @@ detect-indent@^4.0.0:
   dependencies:
     repeating "^2.0.0"
 
-dotenv:
+dotenv@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
 
@@ -1100,7 +1100,7 @@ nan@^2.3.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
 
-node-cron:
+node-cron@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/node-cron/-/node-cron-1.2.0.tgz#024987b1b492044aa00d75f5ca64aa7c94e0d256"
 
@@ -1231,11 +1231,11 @@ qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
-random-int:
+random-int@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/random-int/-/random-int-1.0.0.tgz#e6a2ed3448ac9c6646a0657443b1c1521592ed08"
 
-random-item:
+random-item@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/random-item/-/random-item-1.0.0.tgz#16ee31626cb050c8a1686a5f0f42a6b99a2aaf11"
 
@@ -1503,7 +1503,7 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
-twitter:
+twitter@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/twitter/-/twitter-1.7.1.tgz#0762378f1dc1c050e48f666aca904e24b1a962f4"
   dependencies:
